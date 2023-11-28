@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=PT+Mono&display=swap');
+
+.headerH1{
+    font-size: 3.2em;
+    color: #f8f8f8;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Aclonica', sans-serif;
+    background-color: #010101;
+    width: 100vw;
+}
+
+.navButtons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #e2cf00;
+}
+
+button{
+    margin: 1rem;
+    background-color: #010101;
+    color: #f8f8f8;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 1rem;
+    font-size: 1em;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #868686;
+    color: white;
+}

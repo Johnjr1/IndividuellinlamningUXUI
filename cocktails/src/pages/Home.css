@@ -1,0 +1,29 @@
+main{
+    width: 100vw;
+}
+
+.videoDiv{
+    color: #f8f8f8;
+    margin-bottom: 2rem;
+    padding: 3rem;
+    border-radius: 10px;
+    background-color: #010101;
+    box-shadow: 5px 10px 8px 10px #888888;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.videoDiv video{
+min-width: 220px;
+}
+
+.linkDiv{
+    margin-bottom: 2rem;
+}
+
+.linkDiv a{
+    color: blue;
+    font-size: 1.5rem;
+}
